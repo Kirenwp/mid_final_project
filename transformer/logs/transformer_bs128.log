@@ -1,0 +1,34 @@
+Training Start: 2025-12-23 11:39:16
+Experiment Name: transformer_bs128
+Config: {'exp_name': 'transformer_bs128', 'train_file': 'train_100k.jsonl', 'valid_file': 'valid.jsonl', 'src_field': 'zh', 'tgt_field': 'en', 'batch_size': 128, 'lr': 0.0005, 'epochs': 20, 'seed': 42, 'model_type': 'transformer', 'hidden_size': 256, 'attn_method': 'dot', 'tf_ratio': 0.5, 'd_model': 256, 'nhead': 4, 'num_layers': 3, 'norm_type': 'layer'}
+--------------------------------------------------
+Mode: TRANSFORMER | Save Name: transformer_bs128
+Vocab: Src=15000, Tgt=15000
+Transformer Init: d_model=256, layers=3, norm=layer
+Epoch 1 | Train Loss: 5.4457 | Valid Loss: 5.2593 | Valid BLEU: 7.03
+!! New Best BLEU (7.03) !! Saving to checkpoints/transformer_bs128_best.pt
+Epoch 2 | Train Loss: 4.5618 | Valid Loss: 4.9328 | Valid BLEU: 6.92
+Epoch 3 | Train Loss: 4.1745 | Valid Loss: 4.7687 | Valid BLEU: 8.18
+!! New Best BLEU (8.18) !! Saving to checkpoints/transformer_bs128_best.pt
+Epoch 4 | Train Loss: 3.9213 | Valid Loss: 4.6272 | Valid BLEU: 8.50
+!! New Best BLEU (8.50) !! Saving to checkpoints/transformer_bs128_best.pt
+Epoch 5 | Train Loss: 3.7351 | Valid Loss: 4.5714 | Valid BLEU: 9.86
+!! New Best BLEU (9.86) !! Saving to checkpoints/transformer_bs128_best.pt
+Epoch 6 | Train Loss: 3.5887 | Valid Loss: 4.5047 | Valid BLEU: 8.82
+Epoch 7 | Train Loss: 3.4705 | Valid Loss: 4.4799 | Valid BLEU: 9.75
+Epoch 8 | Train Loss: 3.3721 | Valid Loss: 4.4617 | Valid BLEU: 9.72
+Epoch 9 | Train Loss: 3.2898 | Valid Loss: 4.4621 | Valid BLEU: 10.20
+!! New Best BLEU (10.20) !! Saving to checkpoints/transformer_bs128_best.pt
+Epoch 10 | Train Loss: 3.2176 | Valid Loss: 4.4386 | Valid BLEU: 9.49
+Epoch 11 | Train Loss: 3.1544 | Valid Loss: 4.4437 | Valid BLEU: 9.63
+Epoch 12 | Train Loss: 3.0992 | Valid Loss: 4.4402 | Valid BLEU: 11.21
+!! New Best BLEU (11.21) !! Saving to checkpoints/transformer_bs128_best.pt
+Epoch 13 | Train Loss: 3.0493 | Valid Loss: 4.4213 | Valid BLEU: 10.00
+Epoch 14 | Train Loss: 3.0056 | Valid Loss: 4.4281 | Valid BLEU: 10.81
+Epoch 15 | Train Loss: 2.9654 | Valid Loss: 4.4250 | Valid BLEU: 9.52
+Epoch 16 | Train Loss: 2.9301 | Valid Loss: 4.4081 | Valid BLEU: 9.46
+Epoch 17 | Train Loss: 2.8942 | Valid Loss: 4.4474 | Valid BLEU: 9.54
+Epoch 18 | Train Loss: 2.8637 | Valid Loss: 4.4207 | Valid BLEU: 10.30
+Epoch 19 | Train Loss: 2.8350 | Valid Loss: 4.4138 | Valid BLEU: 11.10
+Epoch 20 | Train Loss: 2.8091 | Valid Loss: 4.4339 | Valid BLEU: 11.38
+!! New Best BLEU (11.38) !! Saving to checkpoints/transformer_bs128_best.pt

@@ -1,0 +1,38 @@
+Training Start: 2025-12-23 11:17:43
+Experiment Name: transformer_abs_rope
+Config: {'exp_name': 'transformer_relative_rope', 'train_file': 'train_100k.jsonl', 'valid_file': 'valid.jsonl', 'src_field': 'zh', 'tgt_field': 'en', 'batch_size': 64, 'lr': 0.0005, 'epochs': 20, 'seed': 42, 'model_type': 'transformer', 'hidden_size': 256, 'attn_method': 'dot', 'tf_ratio': 0.5, 'd_model': 256, 'nhead': 4, 'num_layers': 3, 'norm_type': 'layer'}
+--------------------------------------------------
+Mode: TRANSFORMER | Save Name: transformer_relative_rope
+Vocab: Src=15000, Tgt=15000
+Transformer Init: d_model=256, layers=3, norm=layer
+Epoch 1 | Train Loss: 8.3805 | Valid Loss: 5.6411 | Valid BLEU: 6.49
+!! New Best BLEU (6.49) !! Saving to checkpoints/transformer_abs_rope_best.pt
+Epoch 2 | Train Loss: 5.0735 | Valid Loss: 5.2406 | Valid BLEU: 8.08
+!! New Best BLEU (8.08) !! Saving to checkpoints/transformer_abs_rope_best.pt
+Epoch 3 | Train Loss: 4.6699 | Valid Loss: 5.0307 | Valid BLEU: 9.28
+!! New Best BLEU (9.28) !! Saving to checkpoints/transformer_abs_rope_best.pt
+Epoch 4 | Train Loss: 4.4035 | Valid Loss: 4.8534 | Valid BLEU: 10.89
+!! New Best BLEU (10.89) !! Saving to checkpoints/transformer_abs_rope_best.pt
+Epoch 5 | Train Loss: 4.2005 | Valid Loss: 4.7692 | Valid BLEU: 11.06
+!! New Best BLEU (11.06) !! Saving to checkpoints/transformer_abs_rope_best.pt
+Epoch 6 | Train Loss: 4.0345 | Valid Loss: 4.6845 | Valid BLEU: 11.72
+!! New Best BLEU (11.72) !! Saving to checkpoints/transformer_abs_rope_best.pt
+Epoch 7 | Train Loss: 3.8928 | Valid Loss: 4.6337 | Valid BLEU: 11.58
+Epoch 8 | Train Loss: 3.7515 | Valid Loss: 4.5352 | Valid BLEU: 11.84
+!! New Best BLEU (11.84) !! Saving to checkpoints/transformer_abs_rope_best.pt
+Epoch 9 | Train Loss: 3.6105 | Valid Loss: 4.4589 | Valid BLEU: 11.56
+Epoch 10 | Train Loss: 3.4919 | Valid Loss: 4.4304 | Valid BLEU: 12.01
+!! New Best BLEU (12.01) !! Saving to checkpoints/transformer_abs_rope_best.pt
+Epoch 11 | Train Loss: 3.3898 | Valid Loss: 4.3931 | Valid BLEU: 12.36
+!! New Best BLEU (12.36) !! Saving to checkpoints/transformer_abs_rope_best.pt
+Epoch 12 | Train Loss: 3.3000 | Valid Loss: 4.3467 | Valid BLEU: 11.65
+Epoch 13 | Train Loss: 3.2206 | Valid Loss: 4.2906 | Valid BLEU: 12.20
+Epoch 14 | Train Loss: 3.1499 | Valid Loss: 4.2523 | Valid BLEU: 12.99
+!! New Best BLEU (12.99) !! Saving to checkpoints/transformer_abs_rope_best.pt
+Epoch 15 | Train Loss: 3.0819 | Valid Loss: 4.2680 | Valid BLEU: 12.42
+Epoch 16 | Train Loss: 3.0265 | Valid Loss: 4.2074 | Valid BLEU: 12.58
+Epoch 17 | Train Loss: 2.9698 | Valid Loss: 4.2255 | Valid BLEU: 12.49
+Epoch 18 | Train Loss: 2.9215 | Valid Loss: 4.2033 | Valid BLEU: 13.55
+!! New Best BLEU (13.55) !! Saving to checkpoints/transformer_abs_rope_best.pt
+Epoch 19 | Train Loss: 2.8759 | Valid Loss: 4.1896 | Valid BLEU: 13.15
+Epoch 20 | Train Loss: 2.8333 | Valid Loss: 4.1682 | Valid BLEU: 12.91

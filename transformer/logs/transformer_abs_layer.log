@@ -1,0 +1,39 @@
+Training Start: 2025-12-23 09:52:14
+Experiment Name: transformer_abs_layer
+Config: {'exp_name': 'transformer_abs_layer', 'train_file': 'train_100k.jsonl', 'valid_file': 'valid.jsonl', 'src_field': 'zh', 'tgt_field': 'en', 'batch_size': 32, 'lr': 0.0005, 'epochs': 20, 'seed': 42, 'model_type': 'transformer', 'hidden_size': 256, 'attn_method': 'dot', 'tf_ratio': 0.5, 'd_model': 256, 'nhead': 4, 'num_layers': 3, 'norm_type': 'layer'}
+--------------------------------------------------
+Mode: TRANSFORMER | Save Name: transformer_abs_layer
+Vocab: Src=15000, Tgt=15000
+Transformer Init: d_model=256, layers=3, norm=layer
+Epoch 1 | Train Loss: 5.0724 | Valid Loss: 5.0097 | Valid BLEU: 8.39
+!! New Best Model (Loss: 5.0097) !! Saving to checkpoints/transformer_abs_layer_best.pt
+Epoch 2 | Train Loss: 4.2459 | Valid Loss: 4.7400 | Valid BLEU: 7.46
+!! New Best Model (Loss: 4.7400) !! Saving to checkpoints/transformer_abs_layer_best.pt
+Epoch 3 | Train Loss: 3.9003 | Valid Loss: 4.5900 | Valid BLEU: 8.83
+!! New Best Model (Loss: 4.5900) !! Saving to checkpoints/transformer_abs_layer_best.pt
+Epoch 4 | Train Loss: 3.6803 | Valid Loss: 4.5037 | Valid BLEU: 9.39
+!! New Best Model (Loss: 4.5037) !! Saving to checkpoints/transformer_abs_layer_best.pt
+Epoch 5 | Train Loss: 3.5197 | Valid Loss: 4.4190 | Valid BLEU: 9.30
+!! New Best Model (Loss: 4.4190) !! Saving to checkpoints/transformer_abs_layer_best.pt
+Epoch 6 | Train Loss: 3.3953 | Valid Loss: 4.3893 | Valid BLEU: 10.16
+!! New Best Model (Loss: 4.3893) !! Saving to checkpoints/transformer_abs_layer_best.pt
+Epoch 7 | Train Loss: 3.2966 | Valid Loss: 4.3685 | Valid BLEU: 9.92
+!! New Best Model (Loss: 4.3685) !! Saving to checkpoints/transformer_abs_layer_best.pt
+Epoch 8 | Train Loss: 3.2152 | Valid Loss: 4.3656 | Valid BLEU: 9.66
+!! New Best Model (Loss: 4.3656) !! Saving to checkpoints/transformer_abs_layer_best.pt
+Epoch 9 | Train Loss: 3.1452 | Valid Loss: 4.3540 | Valid BLEU: 9.71
+!! New Best Model (Loss: 4.3540) !! Saving to checkpoints/transformer_abs_layer_best.pt
+Epoch 10 | Train Loss: 3.0832 | Valid Loss: 4.3397 | Valid BLEU: 10.11
+!! New Best Model (Loss: 4.3397) !! Saving to checkpoints/transformer_abs_layer_best.pt
+Epoch 11 | Train Loss: 3.0287 | Valid Loss: 4.3468 | Valid BLEU: 11.55
+Epoch 12 | Train Loss: 2.9820 | Valid Loss: 4.3546 | Valid BLEU: 11.63
+Epoch 13 | Train Loss: 2.9400 | Valid Loss: 4.3359 | Valid BLEU: 10.65
+!! New Best Model (Loss: 4.3359) !! Saving to checkpoints/transformer_abs_layer_best.pt
+Epoch 14 | Train Loss: 2.9016 | Valid Loss: 4.3082 | Valid BLEU: 11.72
+!! New Best Model (Loss: 4.3082) !! Saving to checkpoints/transformer_abs_layer_best.pt
+Epoch 15 | Train Loss: 2.8657 | Valid Loss: 4.3560 | Valid BLEU: 11.54
+Epoch 16 | Train Loss: 2.8333 | Valid Loss: 4.3356 | Valid BLEU: 11.65
+Epoch 17 | Train Loss: 2.8039 | Valid Loss: 4.3357 | Valid BLEU: 10.85
+Epoch 18 | Train Loss: 2.7757 | Valid Loss: 4.3182 | Valid BLEU: 11.17
+Epoch 19 | Train Loss: 2.7504 | Valid Loss: 4.3342 | Valid BLEU: 12.07
+Epoch 20 | Train Loss: 2.7252 | Valid Loss: 4.3559 | Valid BLEU: 12.12

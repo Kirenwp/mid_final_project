@@ -1,0 +1,34 @@
+Training Start: 2025-12-23 12:39:32
+Experiment Name: transformer_scale_small
+Config: {'exp_name': 'transformer_scale_small', 'train_file': 'train_100k.jsonl', 'valid_file': 'valid.jsonl', 'src_field': 'zh', 'tgt_field': 'en', 'batch_size': 128, 'lr': 0.0005, 'epochs': 20, 'seed': 42, 'model_type': 'transformer', 'hidden_size': 256, 'attn_method': 'dot', 'tf_ratio': 0.5, 'd_model': 128, 'nhead': 4, 'num_layers': 2, 'norm_type': 'layer'}
+--------------------------------------------------
+Mode: TRANSFORMER | Save Name: transformer_scale_small
+Vocab: Src=15000, Tgt=15000
+Transformer Init: d_model=128, layers=2, norm=layer
+Epoch 1 | Train Loss: 5.8633 | Valid Loss: 5.6067 | Valid BLEU: 5.19
+!! New Best BLEU (5.19) !! Saving to checkpoints/transformer_scale_small_best.pt
+Epoch 2 | Train Loss: 5.0885 | Valid Loss: 5.3025 | Valid BLEU: 5.99
+!! New Best BLEU (5.99) !! Saving to checkpoints/transformer_scale_small_best.pt
+Epoch 3 | Train Loss: 4.7730 | Valid Loss: 5.1333 | Valid BLEU: 6.59
+!! New Best BLEU (6.59) !! Saving to checkpoints/transformer_scale_small_best.pt
+Epoch 4 | Train Loss: 4.5674 | Valid Loss: 4.9985 | Valid BLEU: 6.43
+Epoch 5 | Train Loss: 4.4137 | Valid Loss: 4.9325 | Valid BLEU: 6.41
+Epoch 6 | Train Loss: 4.2939 | Valid Loss: 4.8900 | Valid BLEU: 7.36
+!! New Best BLEU (7.36) !! Saving to checkpoints/transformer_scale_small_best.pt
+Epoch 7 | Train Loss: 4.1957 | Valid Loss: 4.8465 | Valid BLEU: 8.27
+!! New Best BLEU (8.27) !! Saving to checkpoints/transformer_scale_small_best.pt
+Epoch 8 | Train Loss: 4.1129 | Valid Loss: 4.8230 | Valid BLEU: 8.51
+!! New Best BLEU (8.51) !! Saving to checkpoints/transformer_scale_small_best.pt
+Epoch 9 | Train Loss: 4.0435 | Valid Loss: 4.7751 | Valid BLEU: 7.10
+Epoch 10 | Train Loss: 3.9830 | Valid Loss: 4.7501 | Valid BLEU: 7.53
+Epoch 11 | Train Loss: 3.9292 | Valid Loss: 4.7298 | Valid BLEU: 7.65
+Epoch 12 | Train Loss: 3.8822 | Valid Loss: 4.7003 | Valid BLEU: 8.37
+Epoch 13 | Train Loss: 3.8404 | Valid Loss: 4.6976 | Valid BLEU: 7.62
+Epoch 14 | Train Loss: 3.8016 | Valid Loss: 4.6918 | Valid BLEU: 8.26
+Epoch 15 | Train Loss: 3.7665 | Valid Loss: 4.6608 | Valid BLEU: 9.20
+!! New Best BLEU (9.20) !! Saving to checkpoints/transformer_scale_small_best.pt
+Epoch 16 | Train Loss: 3.7342 | Valid Loss: 4.6429 | Valid BLEU: 7.32
+Epoch 17 | Train Loss: 3.7040 | Valid Loss: 4.6433 | Valid BLEU: 7.73
+Epoch 18 | Train Loss: 3.6765 | Valid Loss: 4.6259 | Valid BLEU: 7.87
+Epoch 19 | Train Loss: 3.6512 | Valid Loss: 4.6464 | Valid BLEU: 8.85
+Epoch 20 | Train Loss: 3.6271 | Valid Loss: 4.6136 | Valid BLEU: 8.12

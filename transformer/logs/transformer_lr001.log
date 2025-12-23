@@ -1,0 +1,35 @@
+Training Start: 2025-12-23 11:59:31
+Experiment Name: transformer_lr001
+Config: {'exp_name': 'transformer_lr001', 'train_file': 'train_100k.jsonl', 'valid_file': 'valid.jsonl', 'src_field': 'zh', 'tgt_field': 'en', 'batch_size': 64, 'lr': 0.001, 'epochs': 20, 'seed': 42, 'model_type': 'transformer', 'hidden_size': 256, 'attn_method': 'dot', 'tf_ratio': 0.5, 'd_model': 256, 'nhead': 4, 'num_layers': 3, 'norm_type': 'layer'}
+--------------------------------------------------
+Mode: TRANSFORMER | Save Name: transformer_lr001
+Vocab: Src=15000, Tgt=15000
+Transformer Init: d_model=256, layers=3, norm=layer
+Epoch 1 | Train Loss: 5.1008 | Valid Loss: 5.0080 | Valid BLEU: 6.49
+!! New Best BLEU (6.49) !! Saving to checkpoints/transformer_lr001_best.pt
+Epoch 2 | Train Loss: 4.2578 | Valid Loss: 4.7466 | Valid BLEU: 5.97
+Epoch 3 | Train Loss: 3.9101 | Valid Loss: 4.5761 | Valid BLEU: 8.72
+!! New Best BLEU (8.72) !! Saving to checkpoints/transformer_lr001_best.pt
+Epoch 4 | Train Loss: 3.6944 | Valid Loss: 4.5009 | Valid BLEU: 8.83
+!! New Best BLEU (8.83) !! Saving to checkpoints/transformer_lr001_best.pt
+Epoch 5 | Train Loss: 3.5398 | Valid Loss: 4.4181 | Valid BLEU: 9.19
+!! New Best BLEU (9.19) !! Saving to checkpoints/transformer_lr001_best.pt
+Epoch 6 | Train Loss: 3.4206 | Valid Loss: 4.3950 | Valid BLEU: 8.98
+Epoch 7 | Train Loss: 3.3236 | Valid Loss: 4.3630 | Valid BLEU: 10.74
+!! New Best BLEU (10.74) !! Saving to checkpoints/transformer_lr001_best.pt
+Epoch 8 | Train Loss: 3.2436 | Valid Loss: 4.3593 | Valid BLEU: 9.96
+Epoch 9 | Train Loss: 3.1756 | Valid Loss: 4.3192 | Valid BLEU: 10.69
+Epoch 10 | Train Loss: 3.1155 | Valid Loss: 4.3257 | Valid BLEU: 9.66
+Epoch 11 | Train Loss: 3.0625 | Valid Loss: 4.3394 | Valid BLEU: 10.29
+Epoch 12 | Train Loss: 3.0161 | Valid Loss: 4.3067 | Valid BLEU: 11.59
+!! New Best BLEU (11.59) !! Saving to checkpoints/transformer_lr001_best.pt
+Epoch 13 | Train Loss: 2.9732 | Valid Loss: 4.3261 | Valid BLEU: 11.00
+Epoch 14 | Train Loss: 2.9348 | Valid Loss: 4.2940 | Valid BLEU: 12.03
+!! New Best BLEU (12.03) !! Saving to checkpoints/transformer_lr001_best.pt
+Epoch 15 | Train Loss: 2.8985 | Valid Loss: 4.3197 | Valid BLEU: 11.81
+Epoch 16 | Train Loss: 2.8659 | Valid Loss: 4.3007 | Valid BLEU: 11.78
+Epoch 17 | Train Loss: 2.8350 | Valid Loss: 4.3100 | Valid BLEU: 11.44
+Epoch 18 | Train Loss: 2.8057 | Valid Loss: 4.3094 | Valid BLEU: 11.48
+Epoch 19 | Train Loss: 2.7809 | Valid Loss: 4.3025 | Valid BLEU: 12.19
+!! New Best BLEU (12.19) !! Saving to checkpoints/transformer_lr001_best.pt
+Epoch 20 | Train Loss: 2.7539 | Valid Loss: 4.3066 | Valid BLEU: 11.96

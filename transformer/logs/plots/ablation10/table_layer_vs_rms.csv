@@ -1,0 +1,3 @@
+run,best_bleu,best_bleu_epoch,best_valid_loss,best_valid_loss_epoch,last_bleu,last_valid_loss
+transformer_abs_layer,12.12,20,4.3082,14,12.12,4.3559
+transformer_abs_rms,11.39,20,4.3491,18,11.39,4.4066
